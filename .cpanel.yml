@@ -3,6 +3,15 @@ deployment:
   tasks:
     - export DEPLOYPATH=/home/rodrigodr/home
     - /bin/cp index.html $DEPLOYPATH
+    - /bin/cp curriculum-vitae.pdf $DEPLOYPATH
+    - /bin/cp curriculum-vitae-eng.pdf $DEPLOYPATH
+    - /bin/cp contact-form.php $DEPLOYPATH
     - /bin/cp -R js $DEPLOYPATH
     - /bin/cp -R css $DEPLOYPATH
+    - /bin/cp -R images $DEPLOYPATH
     - /bin/cp -R assets $DEPLOYPATH
+    - /bin/cp -R Aviso-de-Privacidad $DEPLOYPATH
+    - /bin/cp -R Contacto $DEPLOYPATH
+    - /bin/cp -R Covid-19 $DEPLOYPATH
+    - /bin/cp -R Endo-2020 $DEPLOYPATH
+    - /bin/cp -R Endoscopic $DEPLOYPATH
