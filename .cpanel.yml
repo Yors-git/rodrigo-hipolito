@@ -1,7 +1,7 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/rodrigodr/home
+    - export DEPLOYPATH=/home/rodrigodr/home/public_html/
     - /bin/cp index.html $DEPLOYPATH
     - /bin/cp curriculum-vitae.pdf $DEPLOYPATH
     - /bin/cp curriculum-vitae-eng.pdf $DEPLOYPATH
