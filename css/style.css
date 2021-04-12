@@ -146,12 +146,10 @@ header {
 	top: -109px;
 }
 
-@media only screen 
-and (min-device-width : 993px) 
-and (max-device-width : 1200px) {
-    .home {
-        top: -109px;
-    }
+@media only screen and (min-device-width: 993px) and (max-device-width: 1200px) {
+	.home {
+		top: -109px;
+	}
 }
 
 .home .col-md-4 {
@@ -233,15 +231,15 @@ and (max-device-width : 1200px) {
 }
 
 .servicios .cuadro a {
-  color: #fff;
+	color: #fff;
 }
 
 .servicios .cuadro a:hover {
-  text-decoration: underline;
+	text-decoration: underline;
 }
 
 .servicios ul {
-  list-style: none;
+	list-style: none;
 }
 
 .servicios .uno,
@@ -252,8 +250,8 @@ and (max-device-width : 1200px) {
 .servicios .seis,
 .servicios .siete {
 	cursor: pointer;
-  width: 30px;
-  margin: 5px;
+	width: 30px;
+	margin: 5px;
 }
 
 .box-servicios p {
@@ -413,7 +411,6 @@ and (max-device-width : 1200px) {
 
 .modal-content {
 	background: #0137fb;
-	color: #fff;
 	font-weight: 300;
 }
 
@@ -636,7 +633,6 @@ footer img.top-doctors {
 
 /* MODAL */
 #modalPromocion .modal-body {
-	color: #000;
 	font-size: 0.9rem;
 }
 
@@ -690,6 +686,10 @@ footer img.top-doctors {
 	}
 }
 
+.promocion-izq, .promocion-izq a {
+	color: #fff !important;
+}
+
 @media (min-width: 576px) {
 	.modal-dialog {
 		max-width: 700px;
@@ -711,16 +711,6 @@ footer img.top-doctors {
 }
 
 /* MAX */
-@media (max-width: 991px) {
-	/* .home {
-        overflow-x: hidden;
-    } */
-
-	/* .home img.position-absolute {
-        height: 100%;
-        left: -230px;
-    } */
-}
 
 @media (max-width: 767px) {
 	.title {
