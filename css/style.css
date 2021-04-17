@@ -199,14 +199,6 @@ header {
 	font-size: 0.9rem;
 }
 
-.about .links-cv {
-	display: none;
-}
-
-.about a.cv {
-	width: 48%;
-}
-
 .about i {
 	color: #00def0;
 }
@@ -388,8 +380,13 @@ header {
 .experience .card .card-title {
 	font-weight: bold;
 	font-family: "Montserrat", "serif";
-	font-size: 0.95rem;
-	height: 40px;
+	font-size: 1.2rem;
+	height: 20px;
+}
+
+.experience .card .card-subtitle {
+  padding: 1.5rem 0 1rem 0;
+  color: #00def0;
 }
 
 .experience .card .date {
@@ -403,10 +400,18 @@ header {
 
 .experience .card-body .header {
 	border-bottom: 1px solid #00def0;
+  padding-bottom: 2rem;
 }
 
 .experience .card-text {
 	height: 100px;
+  list-style: none;
+}
+
+.experience .card-text-long {
+	height: 150px;
+  padding-top: 0.5rem;
+  list-style: none;
 }
 
 .modal-content {
